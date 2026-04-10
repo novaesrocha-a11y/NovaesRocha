@@ -1,18 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--1° - trocar a linguagem-->
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso De Sistemas</title>
-    <link rel="stylesheet" href="style.css">
+    <!--2º colocar o nome ceep 2026 no navegador-->
+    <title>CEEP 2026</title>
+    <!--3°link do css, acrescentar ./-->
+    <link rel="stylesheet" href="./style.css">
+    <!--link para icones externos-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
+
 <body>
-   <header>
-        <img src="" alt="logo do ceep">
-        <h1></h1>
-   </header>
-   <main>
-    
-   </main>
+    <!--4° inserir as tag's de marcação-->
+    <header>
+        <!--inserindo um classe para estilização do logo-->
+        <div class="logo-container">
+            <i class="fas fa-university fa-2x" style="color: var(--azul-estado)">
+            </i>
+            <strong>CEEP CIANORTE</strong>
+        </div>
+        <nav>
+            <i class="fas fa-wheelchair" title="Acessibilidade" style="margin-right: 15px; cursor:pointer"></i>
+            <i class="fas fa-hands-asl-interpreting" title="Libras" style="cursor: pointer"></i>
+        </nav>
+    </header>
+    <!--Area dividida-->
+    <section class="hero">
+        <div class="hero-ilustration">
+            <i class="fas fa-user-graduate"></i>
+            <i class="fas fa-microscope"></i>
+            <i class="fas fa-laptop-code"></i>
+
+        </div>
+        <h1>Ensino Profissional de Excelência</h1>
+    </section>
+    <!--carregando parte principal-->
+    <main class="container-categorias">
+        <div class="card-categoria">
+            <div class="icon-box">
+                <i class="fas fa-book-read"></i>
+            </div>
+            <h2>Ensino Médio Integrado</h2>
+            <p>
+                Para estudantes que concluíram
+                o 9° ano. Formação técnica e 
+                regular em um único curso.
+            </p>
+            <ul style="list-style: nome; margin-top: 1rem;
+            text-align: left;">
+            <li>
+                <i class="fas fa-check-circle"
+                style="color: var(--azul-estado)">
+                </i>
+                Vestuário
+            </li>
+            <li>
+                <i class="fas fa-check-circle"
+                style="color: var(--azul-estado)">
+                </i>
+                Química
+                
+            </li>
+            <li>
+                <i class="fas fa-check-circle"
+                style="color: var(--azul-estado)">
+                </i>
+                Farmácia
+            </li>
+            <li>
+                <i class="fas fa-check-circle"
+                style="color: var(--azul-estado)">
+                </i>
+                Des. Sistemas
+            </li>
+            <li>
+                <i class="fas fa-check-circle"
+                style="color: var(--azul-estado)">
+                </i>
+                I.A e Dados
+            </li>
+            </ul>
+            <a href="./integrado.html" class="btn">Ver Cursos</a>
+        </div>
+        <div class="card-categoria subsequente">
+            <div class="icon-box">
+                <i class="fas fa-user-tie"></i>
+            </div>
+            <h2>Ensino Subsequente</h2>
+            <p>
+                Para quem ja concluiu o ensino médio e busca especialização 
+                tecnicarápida para o mercado de trabalho.
+            </p>
+            <ul style="list-style: nome; margin-top: 1rem;
+            text-align: left;">
+            <li>
+                <i class="fas fa-check-circle"
+                style="color: var(--verde-estado)">
+                </i>
+                Enfermagem
+            </li>
+            <li>
+                <i class="fas fa-check-circle"
+                style="color: var(--verde-estado)">
+                </i>
+                Segurança do trabalho
+                
+            </li>
+            <li>
+                <i class="fas fa-check-circle"
+                style="color: var(--verde-estado)">
+                </i>
+                Recurso humanos
+            </li>
+            <li>
+                <i class="fas fa-check-circle"
+                style="color: var(--verde-estado)">
+                </i>
+                Des. Sistemas
+            </li>
+            <li>
+                <i class="fas fa-check-circle"
+                style="color: var(--verde-estado)">
+                </i>
+                Adiministração]
+                 </li>
+            <li>
+                <i class="fas fa-check-circle"
+                style="color: var(--verde-estado)">
+                </i>
+               Vestuário
+            </li>
+            </li>
+            </ul>
+            <a href="./subsequente.html" class="btn">Ver Cursos</a>
+        </div>
+    </main>
+
 </body>
-</html>
