@@ -68,9 +68,14 @@ header{
     max-width: 500px;
     text-align: center;
     transition: transform 0.3s ease;
-    boox-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+border-bottom: 8px solid var(--vermelho-ceep);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 .card-categoria.subsequente{
     border-color: var(--amarelo-ceep);
-}rder-bottom: 8px solid var(--vermelho-ceep);
-    b
+}
+
+.card-categoria:hover{
+    transform: translateY(-10px);
+}
+    
